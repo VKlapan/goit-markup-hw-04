@@ -1,37 +1,4 @@
 /*
-font: Bold 26px Raleway - logo header footer
-font: Medium 14px Roboto - text-nav-header
-font: Black 44px Roboto - h1
-font: Bold 16px Roboto - text-button-hero
-font: Bold 14px Roboto - h3
-font: Regular 14px Roboto - p, text-nav-footer
-font: Bold 36px Roboto - h2
-font: Medium 16px Roboto - h3-our-team, text-nav-portfolio
-font: Regular 16px Roboto - p, p-our-team, p-portfolio-items
-font: Bold 18px Roboto - h3-portfolio-items
-
-Roboto Medium-500 Black-800 Bold-700 Regular-400
-Raleway Bold-700
-
-
-color: #000000 logo
-
-- #212121 text-main-and-portfolio-nav, h2, h3
-
-#2196F3 logo-main-text, nav-item-hover, button-hero
-#188CE8 hover, button-hero
-
-- #FFFFFF h1, text-button-hero, text-nav-footer
-#C4C4C4 text-nav-contact-footer
-
-#E5E5E5 backgroung-why-we-and-what-we-do
-#F5F4FA background-our-team, buttons-nav-portfolio
-
-#757575 text-p
-
-#2F303A background-hero-and-footer
-
-
 */
 
 :root {
@@ -188,7 +155,16 @@ p {
 /* hero */
 .hero {
   padding: 200px 0px;
-  background-color: var(--section-background-color);
+  max-width: 1600px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero_bg_Img.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero .container {
