@@ -57,8 +57,6 @@ p {
 .link.current {
   color: var(--nav-hover-color);
 }
-.sub-title-invisible {
-}
 
 .sub-title-invisible {
   display: none;
