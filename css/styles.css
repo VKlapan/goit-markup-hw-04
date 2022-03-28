@@ -397,9 +397,15 @@ p {
   background-color: #2196f3;
 }
 
-.ourteam-item-socials-logo:hover {
+.ourteam-item-socials-link:hover .ourteam-item-socials-logo {
   fill: #ffffff;
 }
+
+/*.ourteam-item-socials-logo:hover {
+  fill: #ffffff;
+}
+*/
+
 /*Our clients*/
 
 .ourclients-list {
@@ -434,7 +440,7 @@ p {
   fill: #afb1b8;
 }
 
-.ourclients-logo:hover {
+.ourclients-item:hover .ourclients-logo {
   fill: #2196f3;
 }
 /*Portfolio */
@@ -559,12 +565,7 @@ p {
 }
 
 .footer-addresses {
-  display: inline-block;
   margin-right: 70px;
-}
-
-.footer-socials {
-  display: inline-block;
 }
 
 .footer-address,
@@ -590,6 +591,51 @@ p {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-box {
+  display: flex;
+}
+
+.footer-socials {
+  padding-top: 12px;
+}
+
 .footer-socials-title {
   color: white;
+  margin-bottom: 20px;
+}
+
+.footer-item-socials {
+  margin-bottom: 30px;
+}
+.footer-item-socials-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-item-socials-item {
+  margin-right: 10px;
+}
+
+.footer-item-socials-item:last-child {
+  margin-right: 0;
+}
+
+.footer-item-socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-item-socials-logo {
+  width: 20px;
+  fill: #ffffff;
+}
+
+.footer-item-socials-link:hover {
+  background-color: #2196f3;
 }
