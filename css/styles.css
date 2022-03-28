@@ -138,6 +138,8 @@ p {
   margin-left: auto;
 }
 .header-contacts-item-link {
+  display: flex;
+  align-items: center;
   color: var(--main-color);
 }
 
@@ -150,6 +152,17 @@ p {
 
 .header-nav-item-link:active {
   color: var(--nav-hover-color);
+}
+
+.header-contacts-item-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  fill: #afb1b8;
+}
+
+.header-contacts-item-link:hover .header-contacts-item-logo {
+  fill: var(--nav-hover-color);
 }
 
 /* hero */
