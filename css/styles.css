@@ -616,10 +616,7 @@ p {
 
 .footer-box {
   display: flex;
-}
-
-.footer-socials {
-  padding-top: 12px;
+  align-items: baseline;
 }
 
 .footer-socials-title {
@@ -627,9 +624,6 @@ p {
   margin-bottom: 20px;
 }
 
-.footer-item-socials {
-  margin-bottom: 30px;
-}
 .footer-item-socials-list {
   display: flex;
   align-items: center;
@@ -656,9 +650,11 @@ p {
 
 .footer-item-socials-logo {
   width: 20px;
+  height: 20px;
   fill: #ffffff;
 }
 
-.footer-item-socials-link:hover {
+.footer-item-socials-link:hover,
+.footer-item-socials-link:focus {
   background-color: #2196f3;
 }
