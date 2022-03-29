@@ -156,10 +156,11 @@ p {
   width: 20px;
   height: 20px;
   margin-right: 10px;
-  fill: #afb1b8;
+  fill: var(--main-color);
 }
 
-.header-contacts-item-link:hover .header-contacts-item-logo {
+.header-contacts-item-link:hover .header-contacts-item-logo,
+.header-contacts-item-link:focus .header-contacts-item-logo {
   fill: var(--nav-hover-color);
 }
 
