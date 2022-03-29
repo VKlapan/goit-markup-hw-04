@@ -339,7 +339,7 @@ p {
 
 .ourteam-item-box {
   padding-top: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
 }
 
 .ourteam-item-title,
@@ -362,6 +362,7 @@ p {
 }
 
 .ourteam-item-text {
+  padding-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
   /* identical to box height */
@@ -405,11 +406,13 @@ p {
   fill: #afb1b8;
 }
 
-.ourteam-item-socials-link:hover {
+.ourteam-item-socials-link:hover,
+.ourteam-item-socials-link:focus {
   background-color: #2196f3;
 }
 
-.ourteam-item-socials-link:hover .ourteam-item-socials-logo {
+.ourteam-item-socials-link:hover .ourteam-item-socials-logo,
+.ourteam-item-socials-link:focus .ourteam-item-socials-logo {
   fill: #ffffff;
 }
 
